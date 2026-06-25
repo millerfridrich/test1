@@ -10,6 +10,7 @@ class Program
 
         Additional(num1, num2);
         Multiply(num1, num2);
+        Divide(num1, num2);
     }
 
     static int Additional(int a, int b)
@@ -22,5 +23,11 @@ class Program
     {
         Console.WriteLine("Произведение равно " + (a * b) + "\n");
         return a * b;
+    }
+
+    static double Divide(double a, double b)
+    {
+        Console.WriteLine("Деление равно " + (a / b) + "\n");
+        return a / b;
     }
 }
